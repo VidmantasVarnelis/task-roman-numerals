@@ -17,9 +17,6 @@ In the project directory **server**, you can run:
 Runs the server app in the development mode on PORT 8080.\
 Server runs on PORT 8080(http://localhost:8080) if there is .env file in the root of server directory. Otherwise runs on PORT 3001 http://localhost:3001
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `yarn watch`
 
 Launches the typescript compiler and checks all directory ./src files and compiles into **/dist** folder
