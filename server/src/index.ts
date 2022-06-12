@@ -5,9 +5,9 @@ import { logger } from './utils/logger';
 import Route from './routes/roman';
 
 dotenv.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = express();
-app.use(cors({ origin: 'http://localhost:3001/' }));
+app.use(cors({ origin: 'http://localhost:3000/' }));
 app.use('/romannumeral', Route);
 
 app.all('*', (_, res) => {

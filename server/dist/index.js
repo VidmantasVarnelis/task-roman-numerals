@@ -9,9 +9,9 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const logger_1 = require("./utils/logger");
 const roman_1 = __importDefault(require("./routes/roman"));
 dotenv_1.default.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = (0, express_1.default)();
-app.use((0, cors_1.default)({ origin: 'http://localhost:3001/' }));
+app.use((0, cors_1.default)({ origin: 'http://localhost:3000/' }));
 app.use('/romannumeral', roman_1.default);
 app.all('*', (_, res) => {
     res.status(404).json({ error: 'Page not found!' });
