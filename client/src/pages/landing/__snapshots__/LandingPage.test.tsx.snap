@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page Test Suite check if page renders correctly 1`] = `
+<div>
+  <div
+    class="sc-eCYdqJ khMReP"
+  >
+    <div
+      class="Toastify"
+    />
+    <h1
+      class="sc-papXJ cUmwOC"
+    >
+      Roman Numeral Converter
+    </h1>
+    <div
+      class="sc-iBkjds gLLwUj"
+    >
+      <div
+        class="sc-jSMfEi UyFka"
+      >
+        <form
+          class="sc-iqcoie bondUQ"
+          role="form"
+        >
+          <div
+            class="sc-bczRLJ ehiAyy"
+          >
+            <button
+              class="sc-gsnTZi fskANS"
+              role="button"
+            >
+              <img
+                alt="No icon"
+                class="sc-dkzDqf dRzneU"
+                src=""
+              />
+            </button>
+            <input
+              aria-label="number-input"
+              class="sc-hKMtZM Fowqy"
+              placeholder="Type a number"
+            />
+          </div>
+        </form>
+        <div
+          class="sc-gKXOVf hybCsZ"
+        >
+          <h1
+            class="sc-jqUVSM eCYDhl"
+          >
+            Roman numeral:
+          </h1>
+          <p
+            class="sc-kDDrLX kgboSd"
+            data-testid="heading"
+          >
+            <span
+              class="sc-crXcEl hpgDSI"
+            >
+              Copy
+            </span>
+            test
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

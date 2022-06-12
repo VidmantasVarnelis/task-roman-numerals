@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Test Suite check if input correctly renders 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ ehiAyy"
+  >
+    <button
+      class="sc-gsnTZi fskANS"
+      role="button"
+    >
+      <img
+        alt="No icon"
+        class="sc-dkzDqf dRzneU"
+        src=""
+      />
+    </button>
+    <input
+      aria-label="number-input"
+      class="sc-hKMtZM Fowqy"
+    />
+  </div>
+</div>
+`;
